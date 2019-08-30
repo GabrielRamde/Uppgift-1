@@ -1,0 +1,47 @@
+body {
+background-color: black;
+}
+
+p {
+color: white;
+}
+
+h1{
+color: white;
+font-size: 22px;
+font-family: "Arial";
+}
+
+h2{
+color: white;
+}
+
+h3{
+color: white;
+text-align: center;
+
+}
+
+h4{
+text-align: right;
+color: white;
+}
+
+.class2{
+ border-style: solid;
+ border-width: 3px;
+ border-left-width: 3px;
+ border-right-width: 3px;
+ border-color: white;	
+
+
+.class3{
+text-align: center;
+background-color: white;
+color: black;
+}
+.class4{
+text-align: right;	
+}
+
+
