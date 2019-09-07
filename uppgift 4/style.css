@@ -1,0 +1,31 @@
+table, tr, td {
+	 border: 2px solid black;
+         border-collapse: collapse;                
+             font-size:150px
+}    
+.a1 { 
+     color: blue; 
+	     background-color: blue;
+}
+.b1 {
+	 color: red; 
+	     background-color: red;
+}
+.c1 {
+	 color: yellow; 
+	     background-color: yellow;
+}
+.d1 {
+	 color: black;
+	     background-color: black;
+}
+.e1 {
+	 color: green;
+	     background-color:green;
+}
+caption { 
+	 caption-side: bottom;
+	     text-align: center;
+	         font-size: 30px;
+	             font-family:Arial;
+}
