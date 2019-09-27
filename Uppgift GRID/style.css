@@ -1,0 +1,100 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/klLMJUx.jpg);
+}
+
+p {
+	color: white;
+	font-size: 20px;
+}
+
+h1{
+	color: white;
+	font-size: 22px;
+	font-family: "";
+}
+
+h2{
+	color: white;
+}
+
+h3{
+	color: white;
+	text-align: center;
+
+}
+
+.minatankar{
+	
+	text-align: right;
+	
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(3,2fr);
+	grid-template-areas: "content1 content2 content3";
+	grid-template-areas: "content4 content5 content6"; 
+    grid-auto-rows: minmax(100px, auto);
+	
+
+}	
+
+section{
+	display:grid;
+	grid-area:"content1";
+}
+.content1{
+	display:grid;
+	grid-area"content1";
+	border-collapse: collapse solid 2px;
+	border-style: solid;
+	border-width: 2px;	
+	border-left-width: 2x;
+	border-right-width: 2px;
+	border-color: red;	
+}
+.content2{
+	display:grid;
+	grid-area"content2";
+	border-collapse: collapse solid 2px;
+	border-style: solid;
+	border-width: 2px;	
+	border-left-width: 2x;
+	border-right-width: 2px;
+	border-color: red;
+}
+
+.content3{
+	display:grid;
+	grid-area"content3";
+	border-collapse: collapse solid 2px;
+	border-style: solid;
+	border-width: 2px;	
+	border-left-width: 2x;
+	border-right-width: 2px;
+	border-color: red;
+}
+
+.content4{
+	display:grid;
+	grid-area"content4";
+}
+
+.content5{
+	display:grid;
+	grid-area"content5"
+}
+
+.content6{
+	display:grid;
+	grid-area"content6"
+}
+
+.bild{
+	width: 652px;	
+	height: 300px;
+}
+
+.bild2{
+	
+}
