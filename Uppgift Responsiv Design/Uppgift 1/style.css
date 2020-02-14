@@ -1,28 +1,48 @@
-.body {
-	
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
 }
 
 
-.table {
-
+table {
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
 }
 
 
 .red {
-	
-}
-
-
-.green {
-	
+	background-color: red;
+	color: red;
+	height: 25%;
+	width: 25%;
 }
 
 
 .blue {
-	
+	background-color: blue; 
+	color: blue;
+	height: 25%;
+	width: 25%;
+}		
+
+
+.green {
+	background-color: green;
+	color: green;
+	height: 25%;
+	width: 25%;
 }
 
 
 .yellow {
-	
+	background-color: yellow;
+	color: yellow;
+	height: 25%;
+	width: 25%;
+}
+
+.rubrik {
+	text-align: center;
 }
