@@ -2,11 +2,10 @@
 <html lang="sv">
 	<head>
 		<meta charset="UTF-8">
-		<link href="style.css" rel="stylesheet">
 		<title>Formulär</title>
 	</head>
 	<body>
-		<form>	
+		<form method="post" action="klar.html">	
 			<label for="namn">Förnamn:</label> 
 			<br>
 			<input type="text" name="namn" id="namn"/> 
@@ -59,15 +58,14 @@
 				<option value="Adidas"> Adidas </option>
 				<option value="Gucci"> Gucci </option>
 				</select>
-
 		</fieldset>
 		<fieldset>
-				<label for="audi">AUDI:</label>
-				<a href="https://www.audi.se/se/web/sv.html"><input type="button" name="audi" id="audi" value="AUDI"/></a>
-				<br>
-				<label for="bmw">BMW:</label>
-				<a href="https://www.bmw.se/sv/index.html"><input type="button" name="bmw" id="bmw" value="BMW"/></a>
+			<input type="button" name="audi" id="audi" value="AUDI"/>
+			<br>
+			<input type="button" name="bmw" id="bmw" value="BMW"/>
 		</fieldset>
+			<br>
+			<input type="submit" value="Skicka">
 		</form>
 	</body>
 </html>
