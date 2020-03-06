@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet">
+		<title>Formulär</title>
+	</head>
+	<body>
+		<form>	
+			<label for="namn">Förnamn:</label> 
+			<br>
+			<input type="text" name="namn" id="namn"/> 
+			<br>
+			<label for="efternamn">Efternamn:</label> 
+			<br>
+			<input type="text" name="efternamn" id="efternamn"/> 
+			<br>
+			<label for="epost">E-postadress:</label> 
+			<br>
+			<input type="text" name="epost" id="epost"/> 
+			<br>
+			<label for="skickatext">Meddelande:</label> 
+			<br>
+			<textarea name="skickatext" id="skickatext"></textarea>
+		<fieldset>
+			<legend>FavoritSpel</legend>
+				<input type="radio" name="FavoritSpel" id="CS" value="CS"/>
+				<label for="CS">CS-GO</label> 
+				<br>
+				<input type="radio" name="FavoritSpel" id="LOL" value="LOL"/>
+				<label for="LOL">LOL</label> 
+				<br>
+				<input type="radio" name="FavoritSpel" id="DOTA" value="DOTA"/>
+				<label for="DOTA">DOTA 2</label> 
+				<br>
+				<input type="radio" name="FavoritSpel" id="VALORANT" value="VALORANT"/>
+				<label for="VALORANT">Valorant</label>
+		</fieldset>
+		<fieldset>
+			<legend>Godastedryckorna</legend>
+				<input type="checkbox" name="Godastedryckorna" id="Mountain" value="Mountain"/>
+				<label for="Mountain">Mountain Dew</label> 
+				<br>
+				<input type="checkbox" name="Godastedryckorna" id="Lemon" value="Lemon"/>
+				<label for="Lemon">Fanta Lemon</label> 
+				<br>
+				<input type="checkbox" name="Godastedryckorna" id="Cola" value="Cola"/>
+				<label for="Cola">Cola</label> 
+				<br>
+				<input type="checkbox" name="Godastedryckorna" id="Bull" value="Bull"/>
+				<label for="Bull">Red Bull</label>
+		</fieldset>
+		<fieldset>
+			<legend>FavoritMärke</legend>
+				<label for="FavoritMärke">Välj ditt FavoritMärke här!</label>
+				<br>
+				<select name="FavoritMärke" id="FavoritMärke">
+				<option value="Nike"> Nike </option>
+				<option value="Adidas"> Adidas </option>
+				<option value="Gucci"> Gucci </option>
+				</select>
+
+		</fieldset>
+		<fieldset>
+				<label for="audi">AUDI:</label>
+				<a href="https://www.audi.se/se/web/sv.html"><input type="button" name="audi" id="audi" value="AUDI"/></a>
+				<br>
+				<label for="bmw">BMW:</label>
+				<a href="https://www.bmw.se/sv/index.html"><input type="button" name="bmw" id="bmw" value="BMW"/></a>
+		</fieldset>
+		</form>
+	</body>
+</html>
